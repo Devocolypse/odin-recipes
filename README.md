@@ -12,6 +12,7 @@ This is a short and sweet foray into HTML, using skills learned in the first pro
 * **Browser**: Firefox (to view TOP curriculum) and plain 'ol Chrome (to view rendered project)
 * **Version Control**: Git / Github, as you can tell
   * **Commit style**: followed closely after [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+* **Formatter**: Prettier
 
 
 # What I've learned from this, and from TOP (so far)
@@ -21,3 +22,12 @@ I'm no stranger to web development. If you look up my profile, you'll see that I
 1. **Why**: Because, as it turns out, programming is not like riding a bicycle. Just because I "got it down" once, doesn't mean I can pick it back up after a hiatus and expect to be as proficient as before. I've checked out TOP in the past, but in my misplaced confidence, I believed relearning what I already know to be unnecessary. It is not. Now I am on the bicycle again, and the familiar feeling of learning to ride is nothing short of a blast.
 
 2. **What I learned**: Lots of little, super useful things, actually. TOP *highly* recommends going through its courses using Linux, specifically Ubuntu 22.04.5 LTS (called Jammy Jellyfish. Apparently, all the Ubuntu versions use cool names like that. Neat!). This was a barrier to learning for me, at first, since I've done everything on Windows since forever. But, I decided to pop an old SSD into my computer, wrangled with installation (I learned the drive was bad hours later), and continued learning from there. The short and long of it is, yes, the Foundations course is all of the basics, which I learned a long time ago. As it turned out, Linux is awesome, Git is much more powerful than I was using it for, and TOP's basics seem to be even *better* than what I thought the basics were.
+
+# Miscellaneous Notes
+
+* Reformatting code with prettier should probably be labled as a "style:" not a "feat:" commit
+* Remember, commits are in the imperative
+  * ex: the commit is "Feat: add a header bar"
+  * Read as: "If applied, this commit will *add a header bar*"
+  * It's worth noting that TOP recommends reading it as such from [this article](https://cbea.ms/git-commit/#imperative) (scroll down a bit), but also suggests Conventional Commits, which at face value would kind of make the above reading awkward (e.g.: "If applied, this commit will *Feat: add a header bar*).
+  * It is also worth noting that the examples Conventional Commits uses start their subject line in lower case, but the aforementioned article insists on uppercase, like an email. I've chosen to combine the two suggests.
