@@ -1,0 +1,22 @@
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    text-align: right;
+    background-color: tomato;
+    padding: .2em;
+}
+
+/* targets all list item elements within a list item element */
+li li {
+    color: rgb(244, 145, 16);
+}
+
+/* targets all ordered lists within a list item */
+li ol {
+    font-weight: bold;
+}
+
+/* targets all list items nested under all ordered lists nested under a list item */
+li ol li {
+    color: rgb(45, 45, 218);
+}
+
