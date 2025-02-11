@@ -1,0 +1,15 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2em;
+}
+
+h1 {
+    font-family: 'Brush Script MT', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: lightcoral;
+    color: white;
+}
+
+li a {
+    color: rgb(206, 15, 53);
+}
