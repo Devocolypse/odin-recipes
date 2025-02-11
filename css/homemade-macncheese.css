@@ -1,0 +1,13 @@
+h2 {
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+li:nth-child(odd) {
+    color: aliceblue;
+    background-color: blue;
+    max-width: 500px;
+    text-align: center;
+}
