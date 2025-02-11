@@ -1,0 +1,23 @@
+body {
+    background-color: hsla(305, 100%, 64%, 0.138);
+}
+
+img {
+    height: auto;
+    width: 50%;
+}
+
+h2 {
+    color: whitesmoke;
+    background-color: blueviolet;
+    padding: 7px;
+}
+
+h2 + ol {
+    text-align: center;
+}
+
+ul {
+    background-color: rgba(137, 43, 226, 0.169);
+    padding: 2em;
+}
