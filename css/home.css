@@ -1,0 +1,17 @@
+.recipes-list {
+    text-align:center;
+    padding: 5px;
+    border: 2px solid lightcoral;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 8px;
+    padding: 8px;
+
+    background-color: rgb(255, 237, 215);
+}

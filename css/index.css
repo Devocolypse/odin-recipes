@@ -1,15 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 2em;
 }
 
 h1 {
-    font-family: 'Brush Script MT', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    background-color: lightcoral;
-    color: white;
+  font-family: "Brush Script MT", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: lightcoral;
+  color: white;
+  padding: 16px;
 }
 
 a {
-    color: rgb(206, 15, 53);
+  color: rgb(206, 15, 53);
 }
